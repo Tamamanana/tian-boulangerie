@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boulangerie HAL</title>
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+  <div class="header-logo">
+    <img src="images/logo.png" alt="logo" width="150px">
+  </div>
+
+  <div class="menu-button" id="menu-button">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+  <div class="menu" id="menu">
+    <ul>
+      <li><a href="#home" onclick="scrollToSection()" class="linktext">HOME</a></li>
+      <li><a href="#boulangerie" onclick="scrollToSection()" class="linktext">NEWS</a></li>
+      <li><a href="#menu-section" onclick="scrollToSection()" class="linktext">MENU</a></li>
+      <li><a href="#address" onclick="scrollToSection()" class="linktext">ADDRESS</a></li>
+    </ul>
+  </div>
+
+  <div class="container">
+
+    <div class="text-box">
+      <p id="fadeInText">贅沢する幸せ</p>
+    </div>
+
+    <h1 id="dynamicText">Boulangerie HAL</h1>
+
+    <div class="image-box" id="imageBox">
+      <img src="images/tenpo04.jpg" alt="照片" data-date="12/01">
+      <div class="hover-hint">
+        <img src="images/pann.png" alt="">
+      </div>
+    </div>
+
+    <div class="month-box">
+      <p id="monthText">12/01</p>
+    </div>
+
+
+    <div class="text-box right">
+      <div class="logo-container">
+
+        <div class="vertical-line"></div>
+
+        <div class="facebook-logo">
+          <a href="#"><img src="images/image 48.png" alt="logo1" width="30px" height="30px"></a>
+        </div>
+        <div class="ins-logo">
+          <a href=""><img src="images/image 49.png" alt="logo2" width="30px" height="30px"></a>
+        </div>
+
+        <div class="vertical-line"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="arrow-down fade-in" id="home">
+    <h2>Welcome to Boulangerie HAL</h2>
+  </div>
+
+  <div class="main-container">
+    <div class="left-box">
+      <img src="images/huang.png" alt="Left Image">
+      <p class="overlay-text-left fade-in">Bon appétit！</p>
+    </div>
+
+    <div class="center-box fade-in">
+      <div class="vertical-line"></div>
+      <p>一口食べれば、幸せが広がる</p>
+      <div class="vertical-line"></div>
+    </div>
+
+    <div class="right-box">
+      <img src="images/hei.png" alt="Right Image">
+      <p class="overlay-text-right fade-in">Chaleur et bonheur！</p>
+    </div>
+  </div>
+
+  <div class="gallery-container">
+    <div class="gallery-scroller" id="galleryScroller">
+      <div class="gallery-images" id="galleryImages">
+        <img src="images/image013.jpg" alt="Picture 1">
+        <img src="images/image014.jpg" alt="Picture 2">
+        <img src="images/image020.jpg" alt="Picture 3">
+        <img src="images/image021.jpg" alt="Picture 4">
+        <img src="images/image024.jpg" alt="Picture 5">
+        <img src="images/image033.jpg" alt="Picture 6">
+        <img src="images/image037.jpg" alt="Picture 7">
+        <img src="images/image038.jpg" alt="Picture 8">
+        <img src="images/image013.jpg" alt="Picture 1">
+        <img src="images/image014.jpg" alt="Picture 2">
+        <img src="images/image020.jpg" alt="Picture 3">
+        <img src="images/image021.jpg" alt="Picture 4">
+        <img src="images/image024.jpg" alt="Picture 5">
+        <img src="images/image033.jpg" alt="Picture 6">
+        <img src="images/image037.jpg" alt="Picture 7">
+        <img src="images/image038.jpg" alt="Picture 8">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="title-box fade-in" id="boulangerie">
+    <h2>Boulangerie HAL NEWS</h2>
+  </div>
+
+  <div class="news-box">
+    <div class="content-container">
+      <img src="images/image017.jpg" alt="Image">
+      <div class="new-text">
+        <p><strong>2023年11月30日</strong></p>
+        <p>フランス　オーベルニュ地方の伝統パンや郷土料理の惣菜パンなどを販売するオーベルニュ地方フェアを開催いたします。</p>
+        <p><strong>2023年11月16日</strong></p>
+        <p>ご好評いただいております、デザートに、季節限定でオレンジを使用したデザートが加わります。</p>
+        <p><strong>2023年11月8日</strong></p>
+        <p>名産ブルーチーズ「フルム・ダンベール」を使ったパンや郷土料理をアレンジした惣菜パンなど、フェア限定商品をご用意しております。</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="title-box fade-in" id="menu-section">
+    <h2>Boulangerie HAL MENU</h2>
+  </div>
+
+  <div class="container-text">
+    <div class="centered-box fade-in">
+      <img src="images/orange.png" alt="Image">
+    </div>
+  </div>
+
+  <div class="container-menu">
+    <div class="alternate-box-first fade-in">
+      <img src="images/menu1.png" alt="Image 1" width="36%" height="auto">
+      <p>オーベルニュ地方の名産ハーブ「ヴェルヴェンヌ」にオレンジ、レモンを合わせ　香り高いブリオッシュに仕上げています。</p>
+    </div>
+    <div class="alternate-box fade-in">
+      <p>名産フルムダンベールチーズを使った濃厚でクリーミーなソースにローストビーフを合わせたサンドイッチです。
+        林檎を添えて爽やかに仕上げています。</p>
+      <img src="images/menu2.png" alt="Image 2" width="30%" height="auto">
+    </div>
+    <div class="alternate-box-first fade-in">
+      <img src="images/menu3.png" alt="Image 1" width="32%" height="auto">
+      <p>レンズ豆と相性の良い、ソーセージとマッシュポテトをのせたボリューム満点のタルティーヌです。</p>
+    </div>
+    <div class="alternate-box fade-in">
+      <p>オーベルニュ地方ルピュイ名産のレンズ豆を塩豚・ベーコン・香味野菜と煮込む郷土料理のパイです。塩豚の旨みを吸収したレンズ豆をパイで包んで焼き上げています。</p>
+      <img src="images/menu4.png" alt="Image 2" width="30%" height="auto">
+    </div>
+    <div class="alternate-box-first fade-in">
+      <img src="images/menu5.png" alt="Image 1" width="33%" height="auto">
+      <p>昔からある郷土料理です。スイスチャード（葉野菜)を生地に練り込みベーコンとプルーンを加えた甘塩っぱいケークサレです。</p>
+    </div>
+    <div class="alternate-box fade-in">
+      <p>ジャガイモ、玉ねぎ、スモークベーコンを名産トムフレッシュチーズと炒める郷土料理「トリュファード」をクロワッサン生地に合わせて香ばしく仕上げています。</p>
+      <img src="images/menu6.png" alt="Image 2" width="32%" height="auto">
+    </div>
+
+    <a href="#" class="learn-more-btn">MORE</a>
+  </div>
+
+  <div class="title-box fade-in" id="address">
+    <h2>ADDRESS</h2>
+  </div>
+
+  <div class="map fade-in">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1621.0908729024638!2d139.69964074330827!3d35.64789358540413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b45f5311ed1%3A0x12987f54caa1ee65!2z44CSMTUwLTAwMzMg5p2x5Lqs6YO95riL6LC35Yy654y_5qW955S677yS77yZ4oiS77yR77yY!5e0!3m2!1sja!2sjp!4v1433666443406"
+      width="780" height="450" frameborder="0" style="border:0"></iframe>
+
+  </div>
+
+  <div class="footer-container fade-in">
+    <div class="footer-text">
+      <p>住所：東京都渋谷区猿楽町29-18</p>
+      <p>電話：03-3344-1010</p>
+      <p>東急東横線［代官山駅］下車　徒歩3分</p>
+      <p>東急東横線・地下鉄日比谷線［中目黒駅］下車　徒歩7分</p>
+      <p>山手線・JR埼京線・地下鉄日比谷線［恵比寿駅］下車　徒歩10分</p>
+    </div>
+    <div class="photo-box">
+      <img src="images/time.png" alt="">
+    </div>
+  </div>
+
+  <footer>
+    <div class="social-icons" style="margin-bottom: 20px;">
+      <img src="images/15icon.png" alt="Social Icon 1">
+      <img src="images/16icon.png" alt="Social Icon 2">
+      <img src="images/17icon.png" alt="Social Icon 3">
+    </div>
+
+    <p><small>©2024 KIKU HAL ALL RIGHTS RESERVED.</small></p>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>
